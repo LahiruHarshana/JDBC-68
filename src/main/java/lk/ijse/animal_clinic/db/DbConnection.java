@@ -1,9 +1,5 @@
 package lk.ijse.animal_clinic.db;
 
-/*
-    @author DanujaV
-    @created 10/24/23 - 9:14 AM   
-*/
 
 import java.sql.Connection;
 import java.sql.DriverManager;

@@ -1,9 +1,5 @@
 package lk.ijse.animal_clinic.controller;
 
-/*
-    @author DanujaV
-    @created 10/31/23 - 8:55 AM   
-*/
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;

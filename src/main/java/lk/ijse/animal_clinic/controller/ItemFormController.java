@@ -1,9 +1,5 @@
 package lk.ijse.animal_clinic.controller;
 
-/*
-    @author DanujaV
-    @created 10/31/23 - 8:56 AM   
-*/
 
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
@@ -16,9 +12,9 @@ import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
-import lk.ijse.thogakade.dto.ItemDto;
-import lk.ijse.thogakade.dto.tm.ItemTm;
-import lk.ijse.thogakade.model.ItemModel;
+import lk.ijse.animal_clinic.dto.ItemDto;
+import lk.ijse.animal_clinic.dto.tm.ItemTm;
+import lk.ijse.animal_clinic.model.ItemModel;
 
 import java.io.IOException;
 import java.sql.SQLException;

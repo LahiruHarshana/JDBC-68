@@ -1,10 +1,5 @@
 package lk.ijse.animal_clinic.controller;
 
-/*
-    @author DanujaV
-    @created 10/31/23 - 8:58 AM   
-*/
-
 import com.jfoenix.controls.JFXButton;
 import com.jfoenix.controls.JFXComboBox;
 import javafx.collections.FXCollections;
@@ -19,14 +14,14 @@ import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
-import lk.ijse.thogakade.dto.CustomerDto;
-import lk.ijse.thogakade.dto.ItemDto;
-import lk.ijse.thogakade.dto.PlaceOrderDto;
-import lk.ijse.thogakade.dto.tm.CartTm;
-import lk.ijse.thogakade.model.CustomerModel;
-import lk.ijse.thogakade.model.ItemModel;
-import lk.ijse.thogakade.model.OrderModel;
-import lk.ijse.thogakade.model.PlaceOrderModel;
+import lk.ijse.animal_clinic.dto.CustomerDto;
+import lk.ijse.animal_clinic.dto.ItemDto;
+import lk.ijse.animal_clinic.dto.PlaceOrderDto;
+import lk.ijse.animal_clinic.dto.tm.CartTm;
+import lk.ijse.animal_clinic.model.CustomerModel;
+import lk.ijse.animal_clinic.model.ItemModel;
+import lk.ijse.animal_clinic.model.OrderModel;
+import lk.ijse.animal_clinic.model.PlaceOrderModel;
 
 import java.io.IOException;
 import java.sql.SQLException;
