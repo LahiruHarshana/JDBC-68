@@ -64,6 +64,7 @@ public class CustomerFormController {
         colTel.setCellValueFactory(new PropertyValueFactory<>("tel"));
     }
 
+
     private void loadAllCustomers() {
         var model = new CustomerModel();
 

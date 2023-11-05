@@ -1,9 +1,5 @@
 package lk.ijse.animal_clinic.dto.tm;
 
-/*
-    @author DanujaV
-    @created 10/31/23 - 2:00 PM   
-*/
 
 import javafx.scene.control.Button;
 import lombok.*;
