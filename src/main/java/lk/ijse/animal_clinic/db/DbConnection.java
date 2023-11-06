@@ -13,7 +13,7 @@ public class DbConnection {
         connection = DriverManager.getConnection(
                 "jdbc:mysql://localhost:3306/kade",
                 "root",
-                "1234678"
+                "12345678"
         );
     }
 
