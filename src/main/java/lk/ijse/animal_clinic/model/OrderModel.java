@@ -34,12 +34,15 @@ public class OrderModel {
         return splitOrderId(null);
     }
 
-    private String splitOrderId(String currentOrderId) {    //O008
+    private String splitOrderId(String currentOrderId) {
         if (currentOrderId != null) {
             String[] split = currentOrderId.split("O");
-            int id = Integer.parseInt(split[1]);    //008
-            id++;  //9
-            return "O00" + id;
+            int id = Integer.parseInt(split[1]);
+            id++;
+
+            String formattedId = String.format("%03d", id);
+
+            return "O" + formattedId;
         }
         return "O001";
     }

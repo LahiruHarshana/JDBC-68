@@ -12,7 +12,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane fx:id="pane" prefHeight="551.0" prefWidth="782.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.thogakade.controller.PlaceOrderFormController">
+<AnchorPane fx:id="pane" prefHeight="551.0" prefWidth="782.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.animal_clinic.controller.PlaceOrderFormController">
     <children>
         <Label layoutX="235.0" prefHeight="42.0" prefWidth="330.0" text="Place Order Form" textFill="#5e5c5c">
             <font>

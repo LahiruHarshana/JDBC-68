@@ -11,7 +11,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane fx:id="root" prefHeight="557.0" prefWidth="587.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.thogakade.controller.CustomerFormController">
+<AnchorPane fx:id="root" prefHeight="557.0" prefWidth="587.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.animal_clinic.controller.CustomerFormController">
     <children>
         <Label layoutX="196.0" layoutY="29.0" text="Customer Manage" textFill="#2c3e50">
             <font>
