@@ -101,6 +101,8 @@ public class PlaceOrderFormController {
         }
     }
 
+
+
     private void loadItemCodes() {
         ObservableList<String> obList = FXCollections.observableArrayList();
         try {
